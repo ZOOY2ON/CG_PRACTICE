@@ -1,0 +1,15 @@
+﻿  03. move_quads.cpp
+C:\Users\zooy2\Desktop\02\ComputerGraphics-Songinhee\project_sample\03. move_quads.cpp(22,1): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+C:\Users\zooy2\Desktop\02\ComputerGraphics-Songinhee\project_sample\03. move_quads.cpp(65,26): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zooy2\Desktop\02\ComputerGraphics-Songinhee\project_sample\03. move_quads.cpp(65,22): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zooy2\Desktop\02\ComputerGraphics-Songinhee\project_sample\03. move_quads.cpp(65,18): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zooy2\Desktop\02\ComputerGraphics-Songinhee\project_sample\03. move_quads.cpp(65,14): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zooy2\Desktop\02\ComputerGraphics-Songinhee\project_sample\03. move_quads.cpp(69,20): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zooy2\Desktop\02\ComputerGraphics-Songinhee\project_sample\03. move_quads.cpp(69,15): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zooy2\Desktop\02\ComputerGraphics-Songinhee\project_sample\03. move_quads.cpp(70,20): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zooy2\Desktop\02\ComputerGraphics-Songinhee\project_sample\03. move_quads.cpp(70,15): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zooy2\Desktop\02\ComputerGraphics-Songinhee\project_sample\03. move_quads.cpp(71,20): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zooy2\Desktop\02\ComputerGraphics-Songinhee\project_sample\03. move_quads.cpp(71,15): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zooy2\Desktop\02\ComputerGraphics-Songinhee\project_sample\03. move_quads.cpp(72,20): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zooy2\Desktop\02\ComputerGraphics-Songinhee\project_sample\03. move_quads.cpp(72,15): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  project_sample.vcxproj -> C:\Users\zooy2\Desktop\02\ComputerGraphics-Songinhee\project_sample\Debug\project_sample.exe
