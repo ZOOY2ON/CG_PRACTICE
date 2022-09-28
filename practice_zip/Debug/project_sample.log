@@ -1,5 +1,22 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: 중간 디렉터리(Debug\)에 다른 프로젝트(project_sample.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
-  01. background_color.cpp
-C:\Users\zooy2\Desktop\02\ComputerGraphics-Songinhee\practice_zip\01. background_color.cpp(23,1): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
   03. move_quads.cpp
+C:\Users\zooy2\Desktop\02\ComputerGraphics-Songinhee\practice_zip\03. move_quads.cpp(23,1): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+C:\Users\zooy2\Desktop\02\ComputerGraphics-Songinhee\practice_zip\03. move_quads.cpp(58,26): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zooy2\Desktop\02\ComputerGraphics-Songinhee\practice_zip\03. move_quads.cpp(58,22): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zooy2\Desktop\02\ComputerGraphics-Songinhee\practice_zip\03. move_quads.cpp(58,18): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zooy2\Desktop\02\ComputerGraphics-Songinhee\practice_zip\03. move_quads.cpp(58,14): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zooy2\Desktop\02\ComputerGraphics-Songinhee\practice_zip\03. move_quads.cpp(62,20): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zooy2\Desktop\02\ComputerGraphics-Songinhee\practice_zip\03. move_quads.cpp(62,15): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zooy2\Desktop\02\ComputerGraphics-Songinhee\practice_zip\03. move_quads.cpp(63,20): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zooy2\Desktop\02\ComputerGraphics-Songinhee\practice_zip\03. move_quads.cpp(63,15): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zooy2\Desktop\02\ComputerGraphics-Songinhee\practice_zip\03. move_quads.cpp(64,20): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zooy2\Desktop\02\ComputerGraphics-Songinhee\practice_zip\03. move_quads.cpp(64,15): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zooy2\Desktop\02\ComputerGraphics-Songinhee\practice_zip\03. move_quads.cpp(65,20): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zooy2\Desktop\02\ComputerGraphics-Songinhee\practice_zip\03. move_quads.cpp(65,15): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zooy2\Desktop\02\ComputerGraphics-Songinhee\practice_zip\03. move_quads.cpp(90,9): warning C4244: '=': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zooy2\Desktop\02\ComputerGraphics-Songinhee\practice_zip\03. move_quads.cpp(91,9): warning C4244: '=': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zooy2\Desktop\02\ComputerGraphics-Songinhee\practice_zip\03. move_quads.cpp(94,9): warning C4244: '=': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zooy2\Desktop\02\ComputerGraphics-Songinhee\practice_zip\03. move_quads.cpp(95,9): warning C4244: '=': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zooy2\Desktop\02\ComputerGraphics-Songinhee\practice_zip\03. move_quads.cpp(116,9): warning C4244: '=': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zooy2\Desktop\02\ComputerGraphics-Songinhee\practice_zip\03. move_quads.cpp(117,9): warning C4244: '=': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   project_sample.vcxproj -> C:\Users\zooy2\Desktop\02\ComputerGraphics-Songinhee\practice_zip\Debug\cg_practice.exe
