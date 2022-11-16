@@ -28,7 +28,7 @@
 //	glutInitDisplayMode ( GLUT_DOUBLE | GLUT_RGBA );				// 디스플레이 모드 설정
 //	glutInitWindowPosition ( 0 , 0 );															// 윈도우의 위치 지정
 //	glutInitWindowSize ( 800 , 600 );														// 윈도우의 크기 지정
-//	glutCreateWindow ( "ABC FUCK" );													// 윈도우 생성( 윈도우 이름)
+//	glutCreateWindow ( "background_color" );													// 윈도우 생성( 윈도우 이름)
 //
 //	//--- GLEW 초기화하기
 //	glewExperimental = GL_TRUE;

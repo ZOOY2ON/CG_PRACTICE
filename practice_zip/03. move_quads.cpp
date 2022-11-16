@@ -23,7 +23,7 @@ void main ( int argc , char** argv )															//--- 윈도우 출력하고 콜백함�
 { 
 	//--- 윈도우 생성하기
 	glutInit ( &argc , argv );																			// glut 초기화
-	glutInitDisplayMode ( GLUT_RGBA );				// 디스플레이 모드 설정
+	glutInitDisplayMode ( GLUT_RGBA );												// 디스플레이 모드 설정
 	glutInitWindowPosition ( 0 , 0 );															// 윈도우의 위치 지정
 	glutInitWindowSize ( 500 , 500 );														// 윈도우의 크기 지정
 	glutCreateWindow ( "move_quads" );												// 윈도우 생성( 윈도우 이름)
@@ -31,8 +31,8 @@ void main ( int argc , char** argv )															//--- 윈도우 출력하고 콜백함�
 
 	glutDisplayFunc ( drawScene );															// 출력 함수의 지정
 	glutDisplayFunc ( Display );																// 출력 함수의 지정
-	//glutMouseFunc ( MyMouse );
-	//glutMotionFunc ( MyMouseMove );
+	glutMouseFunc ( MyMouse );
+	glutMotionFunc ( MyMouseMove );
 	glutReshapeFunc ( Reshape );															// 다시 그리기 함수 지정
 	glutMainLoop ( );																						// 이벤트 처리 시작 
 } 
@@ -77,7 +77,7 @@ GLvoid keyboard ( unsigned char key , int x , int y )
 			num++;
 		}
 		else {
-
+			 
 		}
 		break;
 	}
@@ -90,44 +90,26 @@ GLvoid MyMouse ( int btn , int state , int x , int y )
 		mX1 = x;
 		mY1 = y;
 	}
-	else if ( btn == GLUT_RIGHT_BUTTON && state == GLUT_DOWN ) {
-		mX2 = x;
-		mY2 = y;
-
-		float Mx , My;
-
-		Mx = mX2 - mX1;
-		My = mY2 - mY1;
-
-		X1 = X1 + Mx;
-		X2 += Mx;
-		Y1 += My;
-		Y2 += My;
-
-		Display ( );
-	}
-
-	glutPostRedisplay ( );
 }
 
-GLvoid MyMouseMove ( int btn, int state,  int x , int y )
+GLvoid MyMouseMove ( int x , int y )
 {
-	if ( btn == GLUT_RIGHT_BUTTON && state == GLUT_DOWN ) {
-		mX2 = x;
-		mY2 = y;
+	mX2 = x;
+	mY2 = y;
 
-		float Mx , My;
+	float cg_x , cg_y;
 
-		Mx = mX2 - mX1;
-		My = mY2 - mY1;
+	cg_x = ( ( ( mX2 - 250 ) / 250 ) - ( ( mX1 - 250 ) / 250 ) );
+	cg_y = ( ( ( mY1 - 250 ) / 250 ) - ( ( mY2 - 250 ) / 250 ) );
 
-		X1 += Mx;
-		X2 += Mx;
-		Y1 += My;
-		Y2 += My;
-	}
+	X1 += cg_x;
+	X2 += cg_x;
+	Y1 += cg_y;
+	Y2 += cg_y;
 
 	Display ( );
+
+	//std::cout << X1 << X2 << Y1 << Y2 << std::endl;
 
 	glutPostRedisplay ( );
 }

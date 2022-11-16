@@ -145,9 +145,15 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="03. move_quads.cpp" />
+    <ClCompile Include="06. draw_triangle.cpp" />
+    <ClCompile Include="draw_triangle.c" />
     <ClCompile Include="head_sample.cpp" />
     <ClCompile Include="02. mouse_command.cpp" />
     <ClCompile Include="pop_up_window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fragment.glsl" />
+    <None Include="vertex.glsl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
