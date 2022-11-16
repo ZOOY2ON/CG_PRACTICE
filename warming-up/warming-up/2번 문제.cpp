@@ -12,7 +12,6 @@ int main ( )
 	int check_n = 0;		//숫자 연속 체크
 
 	string line;
-	string name;
 
 	ifstream file ( "data.txt" );	//파일 열기
 	if ( file.is_open ( ) ) {
